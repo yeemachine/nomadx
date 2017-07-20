@@ -34,39 +34,39 @@
       @keyframes appearTriangle{
         0%{
           opacity: 1;
-          transform: scale3d(0,0,0);
+          -webkit-transform: scale3d(0,0,0);
         }
         100%{
           opacity: 1;
-          transform: scale3d(1,1,1);
+          -webkit-transform: scale3d(1,1,1);
         }
       }
       @keyframes slide{
         0%{
           opacity: 0;
-          transform: translate3d(290px,0,0);
+          -webkit-transform: translate3d(290px,0,0);
 
         }
         50%{
           opacity: 1;
-          transform: translate3d(290px,0,0);
+          -webkit-transform: translate3d(290px,0,0);
         }
         100%{
           opacity: 1;
-          transform: translate3d(0,0,0);
+          -webkit-transform: translate3d(0,0,0);
         }
       }
       @keyframes slide2{
         0%{
 
-          transform: translate3d(290px,0,0);
+          -webkit-transform: translate3d(290px,0,0);
         }
         50%{
-          transform: translate3d(290px,0,0);
+          -webkit-transform: translate3d(290px,0,0);
         }
         100%{
 
-          transform: translate3d(0,0,0);
+          -webkit-transform: translate3d(0,0,0);
         }
       }
       @keyframes slideUp{
@@ -186,7 +186,7 @@
         animation: slide .5s linear;
         animation-fill-mode: forwards;
         animation-delay: 1s;
-        transform: translate3d(290px,0,0);
+        -webkit-transform: translate3d(290px,0,0);
       }
       .word{
         opacity: 0;
@@ -195,13 +195,13 @@
         animation-delay: 1.5s;
       }
       .square{
-        transform: translate3d(290px,0,0);
+        -webkit-transform: translate3d(290px,0,0);
         animation: slide2 .5s linear;
         animation-delay: 1s;
         animation-fill-mode: forwards;
       }*/
       .box{
-        transform: translate3d(290px,0,0);
+        -webkit-transform: translate3d(290px,0,0);
         animation: slide2 .5s linear;
         animation-delay: 1.5s;
         animation-fill-mode: forwards;
@@ -259,8 +259,8 @@
     	.st3{clip-path:url(#SVGID_2_);fill:none;stroke:#005CB9;stroke-width:22;stroke-miterlimit:10;}
       .nnn{
         opacity: 0;
-        transform-origin: center;
-        transform:rotate(-90deg);
+        -webkit-transform-origin: center;
+        -webkit-transform:rotate(-90deg);
         animation: dash 3s cubic-bezier(0.670, 0.5, 0.200, 1.000);
         animation-fill-mode: forwards;
         animation-delay: .45s
@@ -280,8 +280,8 @@
         animation: appearTriangle .25s linear;
         animation-fill-mode: forwards;
         animation-delay: 1s;
-        transform-origin: bottom left;
-        transform: scale3d(0,0,0);
+        -webkit-transform-origin: bottom left;
+        -webkit-transform: scale3d(0,0,0);
       }
       .word{
         opacity: 0;
